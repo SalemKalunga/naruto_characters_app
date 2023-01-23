@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "first_name": "Natuto",
+    "first_name": "Naruto",
     "last_name": "Uzumaki",
     "hair_color": "Blond",
     "age": 19,
     "favorite_technique": "Rasengan!",
     "email": "uzumakinaruto13@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": true,
-    "img": "../../assets/profile_images/narutouzumaki.jpg"
+    "img": "https://images5.alphacoders.com/532/532559.jpg"
   },
   {
     "id": 2,
@@ -19,9 +19,9 @@
     "age": 20,
     "favorite_technique": "Shidori!",
     "email": "uchihasasuke54@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": true,
-    "img": "../../assets/profile_images/sasukeuchiha.jpg"
+    "img": "https://images3.alphacoders.com/820/82029.jpg"
   },
   {
     "id": 3,
@@ -31,9 +31,9 @@
     "age": 20,
     "favorite_technique": "Healing",
     "email": "arunosakura32@konoha.com",
-    "gender": "F",
+    "gender": "Female",
     "is_alive": true,
-    "img": "../../assets/profile_images/sakura.png"
+    "img": "https://images2.alphacoders.com/135/thumbbig-135632.webp"
   },
   {
     "id": 4,
@@ -43,9 +43,9 @@
     "age": 32,
     "favorite_technique": "Shidori!",
     "email": "kakashiatake21@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": true,
-    "img": "../../assets/profile_images/kakashiatake.jpg"
+    "img": "https://images2.alphacoders.com/720/720042.png"
   },
   {
     "id": 5,
@@ -55,21 +55,21 @@
     "age": 33,
     "favorite_technique": "Ouverture de la sixième Porte!",
     "email": "mightguy81@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": true,
-    "img": "../../assets/profile_images/guymaito.jpg"
+    "img": "https://images.alphacoders.com/614/thumbbig-614747.webp"
   },
   {
     "id": 6,
-    "first_name": "Rock Lee",
-    "last_name": "Uchiha",
+    "first_name": "Rock",
+    "last_name": "Lee",
     "hair_color": "Black",
     "age": 20,
     "favorite_technique": "Shidori!",
     "email": "rocklee76@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": true,
-    "img": "../../assets/profile_images/rocklee.jpg"
+    "img": "https://images3.alphacoders.com/954/thumbbig-954943.webp"
   },
   {
     "id": 7,
@@ -79,9 +79,9 @@
     "age": 18,
     "favorite_technique": "Les 64 Points du yaké!",
     "email": "nejihyuga@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": false,
-    "img": "../../assets/profile_images/naruto.jpg"
+    "img": "https://images7.alphacoders.com/112/thumbbig-1122685.webp"
   },
   {
     "id": 8,
@@ -91,9 +91,9 @@
     "age": 20,
     "favorite_technique": "Outils Ninjas",
     "email": "tentenmitashi@konoha.com",
-    "gender": "F",
+    "gender": "Female",
     "is_alive": true,
-    "img": "../../assets/profile_images/uchihasasuke.jpg"
+    "img": "https://images4.alphacoders.com/104/thumbbig-1046819.webp"
   },
   {
     "id": 9,
@@ -103,9 +103,9 @@
     "age": 19,
     "favorite_technique": "Manipulation des ombres!",
     "email": "naarashikamaru67@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": true,
-    "img": "../../assets/profile_images/uzumakinaruto.jpg"
+    "img": "https://images.alphacoders.com/135/thumbbig-135643.webp"
   },
   {
     "id": 10,
@@ -115,9 +115,9 @@
     "age": 20,
     "favorite_technique": "Transposition!",
     "email": "yamanakaino86@konoha.com",
-    "gender": "F",
+    "gender": "Female",
     "is_alive": true,
-    "img": "../../assets/profile_images/sasukeuchiwa.jpg"
+    "img": "https://images5.alphacoders.com/106/thumbbig-1063526.webp"
   },
   {
     "id": 11,
@@ -127,9 +127,9 @@
     "age": 22,
     "favorite_technique": "Boulet Humain",
     "email": "chojiakimichi@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": true,
-    "img": "../../assets/profile_images/maitoguy2.jpg"
+    "img": "https://images6.alphacoders.com/595/thumbbig-595876.webp"
   },
   {
     "id": 12,
@@ -139,9 +139,9 @@
     "age": 20,
     "favorite_technique": "Shidori!",
     "email": "azumasarutobi@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": false,
-    "img": "../../assets/profile_images/maitoguy.jpg"
+    "img": "https://images8.alphacoders.com/112/thumbbig-1129968.webp"
   },
   {
     "id": 13,
@@ -151,9 +151,9 @@
     "age": 68,
     "favorite_technique": "Fire, Water, Wind",
     "email": "iruzensarutobi@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": false,
-    "img": "../../assets/profile_images/atakekakashi.jpg"
+    "img": "https://wallpapercave.com/dwp1x/wp1996719.png"
   },
   {
     "id": 14,
@@ -163,9 +163,9 @@
     "age": 15,
     "favorite_technique": "Rasengan!",
     "email": "konohamarusarutobi3@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": true,
-    "img": "../../assets/profile_images/naruto.jpg"
+    "img": "https://images6.alphacoders.com/546/thumbbig-546278.webp"
   },
   {
     "id": 15,
@@ -175,9 +175,9 @@
     "age": 45,
     "favorite_technique": "Téléportation",
     "email": "namikazeminato@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": false,
-    "img": "../../assets/profile_images/narutouzumaki.jpg"
+    "img": "https://images5.alphacoders.com/644/thumbbig-644177.webp"
   },
   {
     "id": 16,
@@ -187,9 +187,9 @@
     "age": 15,
     "favorite_technique": "Chaining!",
     "email": "kushinauzumaki@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": false,
-    "img": "../../assets/profile_images/rocklee.jpg"
+    "img": "https://wallpapercave.com/dwp1x/wp1857078.jpg"
   },
   {
     "id": 17,
@@ -199,9 +199,9 @@
     "age": 25,
     "favorite_technique": "Fire, Water, Wind",
     "email": "itachiuchiha@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": false,
-    "img": "../../assets/profile_images/sakura.png"
+    "img": "https://images4.alphacoders.com/686/thumbbig-686215.webp"
   },
   {
     "id": 18,
@@ -211,9 +211,9 @@
     "age": 34,
     "favorite_technique": "Fire ball Justsu!",
     "email": "uchihaobito@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": true,
-    "img": "../../assets/profile_images/uzumakinaruto.jpg"
+    "img": "https://images8.alphacoders.com/644/thumbbig-644160.webp"
   },
   {
     "id": 19,
@@ -223,9 +223,9 @@
     "age": 68,
     "favorite_technique": "Katon, fire ball Jutsu!",
     "email": "madarauchiha@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": false,
-    "img": "../../assets/profile_images/sasukeuchiha.jpg"
+    "img": "https://images3.alphacoders.com/695/thumbbig-695428.webp"
   },
   {
     "id": 20,
@@ -235,9 +235,9 @@
     "age": 55,
     "favorite_technique": "Rasengan!",
     "email": "tsunadesenju@konoha.com",
-    "gender": "F",
+    "gender": "Female",
     "is_alive": true,
-    "img": "../../assets/profile_images/uchihasasuke.jpg"
+    "img": "https://images6.alphacoders.com/956/thumbbig-956079.webp"
   },
   {
     "id": 21,
@@ -247,9 +247,9 @@
     "age": 60,
     "favorite_technique": "Mokuton Jutsu",
     "email": "senjuashirama@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": false,
-    "img": "../../assets/profile_images/kakashiatake.jpg"
+    "img": "https://images7.alphacoders.com/680/thumbbig-680959.webp"
   },
   {
     "id": 22,
@@ -259,8 +259,8 @@
     "age": 54,
     "favorite_technique": "Suiton Jutsu!",
     "email": "konohamarusarutobi3@konoha.com",
-    "gender": "M",
+    "gender": "Male",
     "is_alive": false,
-    "img": "../../assets/profile_images/sasukeuchiwa.jpg"
+    "img": "https://images6.alphacoders.com/644/thumbbig-644157.webp"
   }
 ]

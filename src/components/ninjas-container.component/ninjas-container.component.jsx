@@ -1,34 +1,61 @@
-import profileImage from "../../assets/profile_images/naruto.jpg";
 import "./ninjas-container.styles.scss";
 import myNinjas from "../../assets/naruto_characters.json";
+import NinjaCard from "../ninja-card.component/ninja-card.component";
+import { Fragment, useState } from "react";
 const NinjasContainer = () => {
+  const [searchFieldText, setSearchFieldText] = useState("");
+  const readInputText = (event) => {
+    setSearchFieldText(event.target.value);
+  };
+  const ninjas = myNinjas.filter((ninja) => {
+    return (
+      ninja.first_name
+        .toLocaleLowerCase()
+        .includes(searchFieldText.toLocaleLowerCase()) ||
+      ninja.last_name
+        .toLocaleLowerCase()
+        .includes(searchFieldText.toLocaleLowerCase()) ||
+      ninja.hair_color
+        .toLocaleLowerCase()
+        .includes(searchFieldText.toLocaleLowerCase()) ||
+      ninja.favorite_technique.toLocaleLowerCase().includes(searchFieldText) ||
+      ninja.email
+        .toLocaleLowerCase()
+        .includes(searchFieldText.toLocaleLowerCase()) ||
+      ninja.age === parseInt(searchFieldText) ||
+      ninja.gender
+        .toLocaleLowerCase()
+        .includes(searchFieldText.toLocaleLowerCase())
+    );
+  });
+
+  // useEffect(() => {});
+  // const ninjas = myNinjas.filter((ninja) => {
+  //   ninja.first_name.toLocaleLowerCase().includes(searchFieldText);
+  // });
+  // console.log(ninjas);
   return (
-    <div className="ninjas_cartes_container">
-      {myNinjas.map((ninja) => {
-        return (
-          <div key={ninja.id} className="ninja_card">
-            <div className="image_container">
-              {}
-              <img
-                src={ninja.img}
-                alt={ninja.first_name}
-                width={200}
-                height={200}
-              />
-            </div>
-            <div className="ninja_description">
-              <p>First name : {ninja.first_name}</p>
-              <p>Last name : {ninja.last_name}</p>
-              <p>Hair color : {ninja.hair_color}</p>
-              <p>Age : {ninja.age}</p>
-              <p>Favorite Technique : {ninja.favorite_technique}</p>
-              <p>Email : {ninja.email}</p>
-              <p>Gender : {ninja.gender}</p>
-            </div>
-          </div>
-        );
-      })}
-    </div>
+    <Fragment>
+      <header>
+        <h2>Natuto characters App</h2>
+        <div>
+          <form>
+            <input
+              type="search"
+              placeholder="search"
+              onChange={readInputText}
+            />
+          </form>
+        </div>
+      </header>
+      <main>
+        <div className="ninjas_cartes_container">
+          {ninjas.map((ninja) => {
+            return <NinjaCard character={ninja} key={ninja.id} />;
+          })}
+        </div>
+      </main>
+    </Fragment>
   );
 };
 export default NinjasContainer;
