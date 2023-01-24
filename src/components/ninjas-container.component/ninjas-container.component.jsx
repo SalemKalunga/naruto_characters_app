@@ -1,12 +1,13 @@
 import "./ninjas-container.styles.scss";
 import myNinjas from "../../assets/naruto_characters.json";
 import NinjaCard from "../ninja-card.component/ninja-card.component";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 const NinjasContainer = () => {
   const [searchFieldText, setSearchFieldText] = useState("");
   const readInputText = (event) => {
     setSearchFieldText(event.target.value);
   };
+  const [ninjaList, setNinjas] = useState(myNinjas);
   const ninjas = myNinjas.filter((ninja) => {
     return (
       ninja.first_name
@@ -29,11 +30,17 @@ const NinjasContainer = () => {
     );
   });
 
-  // useEffect(() => {});
-  // const ninjas = myNinjas.filter((ninja) => {
-  //   ninja.first_name.toLocaleLowerCase().includes(searchFieldText);
-  // });
-  // console.log(ninjas);
+  const upSort = () => {
+    setNinjas(ninjas.sort((a, b) => a.age - b.age));
+    console.log(ninjaList);
+  };
+  const downSort = () => {
+    setNinjas(ninjas.sort((a, b) => b.age - a.age));
+    console.log(ninjaList);
+  };
+  useEffect(() => {
+    upSort();
+  }, [searchFieldText]);
   return (
     <Fragment>
       <header>
@@ -49,8 +56,10 @@ const NinjasContainer = () => {
         </div>
       </header>
       <main>
+        <button onClick={upSort}>click</button>
+        <button onClick={downSort}>down</button>
         <div className="ninjas_cartes_container">
-          {ninjas.map((ninja) => {
+          {ninjaList.map((ninja) => {
             return <NinjaCard character={ninja} key={ninja.id} />;
           })}
         </div>
