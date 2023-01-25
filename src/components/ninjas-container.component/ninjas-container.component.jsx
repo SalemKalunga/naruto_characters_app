@@ -2,12 +2,14 @@ import "./ninjas-container.styles.scss";
 import myNinjas from "../../assets/naruto_characters.json";
 import NinjaCard from "../ninja-card.component/ninja-card.component";
 import { Fragment, useEffect, useState } from "react";
+import SearchBox from "../search-box.component/search-box.component";
 const NinjasContainer = () => {
   const [searchFieldText, setSearchFieldText] = useState("");
   const readInputText = (event) => {
     setSearchFieldText(event.target.value);
   };
   const [ninjaList, setNinjas] = useState(myNinjas);
+
   const ninjas = myNinjas.filter((ninja) => {
     return (
       ninja.first_name
@@ -45,15 +47,7 @@ const NinjasContainer = () => {
     <Fragment>
       <header>
         <h2>Natuto characters App</h2>
-        <div>
-          <form>
-            <input
-              type="search"
-              placeholder="search"
-              onChange={readInputText}
-            />
-          </form>
-        </div>
+        <SearchBox changeHandler={readInputText} />
       </header>
       <main>
         <button onClick={upSort}>click</button>
